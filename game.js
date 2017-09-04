@@ -28,7 +28,7 @@ var canvas,
         velocity: 0,
         radius: 12,
         gravity: 0.25,
-        _jump: 4.6,
+        _jump: 10000000,
 
         jump: function() {
             this.velocity = -this._jump;
