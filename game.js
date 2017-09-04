@@ -123,6 +123,7 @@ var canvas,
 
                     if(r > d1 || r > d2) {
                         currentstate = states.Score;
+                        deathaudio.play();
                     }
                 }
 
